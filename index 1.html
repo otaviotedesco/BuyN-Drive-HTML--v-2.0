@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Buy N' Drive</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+
+
+<!---------------------BODY-NAVBAR-------------------------->
+<body>
+<header><!--Arrumar o posicionamento da sidebar para o centro-->
+
+<section class="container" id="nav-container">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <a class="bn-logo" href="index 1.html">
+            img id="logo" src="logo/3-fotor-bg-remover-20231107182338.png" alt="Rental Car"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+            aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+        
+        <section class="collapse navbar-collapse justify-content-end" id="navbar-links">
+            <section class="navbar-nav">
+                <a class="nav-item nav-link" id="menu-inicio" href="#">Comprar</span></a>
+                <a class="nav-item nav-link" id="menu-anuncie" href="#">Anuncie seu veículo</a>
+                <a class="nav-item nav-link" id="menu-serviços" href="#">Serviços</a>
+                <a class="nav-item nav-link" id="menu-contatos" href="#">Contato</a>
+            </section>
+        </section>
+    </nav>
+</section>
+<!---------------------------JUMBOTRON------------------------->
+<section class="jumbotron" style="background-image: url(Captura\ de\ tela\ 2023-11-08\ 113959.png);"></section>
+
+</header>
+<!---------------------------FINAL HEADER-------------------------->
+
+<main>
+<!---------------------------INÍCIO SIDEBAR-MAIN------------------------->
+    <section class="container-lg-90">
+        <section class="row">
+            <section class="col-lg-3 d-none d-lg-block">
+<!---------------------------TIPO SERVIÇO------------------------>
+                <section class="sidebar">
+                    <h5>Filtrar Busca</h5>
+                        <form><!--FORM-->
+                            <section class="form-group mb-0">
+                                <label for="tipoServico">Tipo de Serviço</label>
+                                <select class="form-control" id="tipoServico">
+                                    <option>Aluguel</option>
+                                    <option>Compra</option>
+                                </select>
+                            </section>
+ <!---------------------------TIPO VEÍCULO------------------------>
+                <section class="form-group mb-0">
+                    <label for="tipoVeiculo">Tipo do Veículo</label>
+                        <select class="form-control" id="marcaCarro">
+                            <option>Passeio</option>
+                            <option>SUV</option>
+                            <option>Esportivo</option>
+                            <option>Motocicleta</option>
+                            <option>Utilitário</option>
+                            <option>Carga</option>
+                        </select>
+                </section>
+<!---------------------------ANO MÍNIMO------------------------->                
+                <section class="form-group mb-0">
+                    <label for="anoMin">Ano Mínimo</label>
+                    <input type="number" class="form-control" id="anoMin"  min="1950" max="2023">
+                </section>
+<!---------------------------ANO MÁXIMO------------------------->
+                <section class="form-group mb-0">
+                    <label for="anoMax">Ano Máximo</label>
+                    <input type="number" class="form-control" id="anoMax"  min="1950" max="2023">
+                </section>
+<!---------------------------PREÇO MÍNIMO------------------------->
+                <section class="form-group mb-0">
+                    <label for="precoMin">Preço Mínimo</label>
+                        <input type="number" class="form-control" id="precoMin">
+                </section>
+<!---------------------------PREÇO MÁXIMO------------------------->                         
+                <section class="form-group mb-3">
+                    <label for="precoMax">Preço Máximo</label>
+                    <input type="number" class="form-control" id="precoMax">
+                </section>
+                    <button type="submit" class="btn btn-primary">Filtrar</button>
+                </form><!--FORM-->
+                    
+                </section><!--class=sidebar-->
+            </section><!--col-lg-3 d-none d-lg-block"-->
+
+<!---------------------------FINAL SIDEBAR-------------------------->
+
+                <section class="col-lg-9">
+                    <section class="container mt-5">
+                        <section class="row">
+                            <section class="col-md-4 mb-4">
+                                <!---------------------------CARD 1-------------------------->
+                                <section class="card">
+                                    <img src="img/lambo1.jpg" class="card-img-top" alt="Imagem do Card">
+                                    <section class="card-body">
+                                        <h5 class="card-title">Lamborhini Huracán STO 2023</h5>
+
+                                        <p class="card-text">R$ 3,700,000</p>
+                                        <div class="info-veiculos">
+                                            <p class="ano-veiculo"><i class="fas fa-calendar"></i> 2019/2020</p>
+                                            <p class="km-veiculo"><i class="fas fa-road"></i> 0 km</p>
+                                        </div>
+                                        
+                                        <div class="dados-potencia-veiculo">
+                                            <p class="potencia"><i class="fas fa-bolt"></i> Potência: 550 CV</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.5 segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 300 km/h</p>
+                                        </div>
+                                        
+                                    </section>
+                                </section>
+                            </section>
+
+<!---------------------------CARD 2-------------------------->
+                            <section class="col-md-4 mb-4">
+                                <section class="card">
+                                    <img src="img/amg.jpg" class="card-img-top" alt="Imagem do Card">
+                                    <section class="card-body" style="margin-top: 25px;">
+                                        <!--Tirar esse style daqui-->
+                                        <h5 class="card-title">Mercedes AMG GTS 2020</h5>
+
+                                        <p class="card-text">R$ 3,200,000</p>
+                                        <div class="info-veiculos">
+                                            <p class="ano-veiculo"><i class="fas fa-calendar"></i> 2019/2020</p>
+                                            <p class="km-veiculo"><i class="fas fa-road"></i> 18,250 km</p>
+                                        </div>
+
+                                        <div class="dados-potencia-veiculo">
+                                            <p class="potencia"><i class="fas fa-bolt"></i> Potência: 625 CV</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.2 segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 320 km/h</p>
+                                        </div>
+                                    </section>
+                                </section>
+                            </section>
+
+<!---------------------------CARD 3-------------------------->
+                            <section class="col-md-4 mb-4">
+                                <section class="card">
+                                    <img src="img/audia.jpg" class="card-img-top"
+                                        alt="Imagem do Card"><!--Tirar esse style daqui-->
+                                    <section class="card-body" style="margin-top: 55px;">
+                                        <h5 class="card-title">AUDI A6 2022</h5>
+
+                                        <p class="card-text">R$ 1,850,000</p>
+                                        <div class="info-veiculos">
+                                            <p class="ano-veiculo"><i class="fas fa-calendar"></i> 2022/2023</p>
+                                            <p class="km-veiculo"><i class="fas fa-road"></i> 9,500 km</p>
+                                        </div class="info-veiculos">
+                                        <div class="dados-potencia-veiculo">
+                                            <p class="potencia"><i class="fas fa-bolt"></i> Potência: 700 CV</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.7 segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 345 km/h</p>
+                                        </div>
+                                    </section>
+                                </section>
+                            </section>
+ <!---------------------------CARD 4-------------------------->
+
+                            <section class="col-md-4 mb-4">
+                                <section class="card">
+                                    <img src="img/car-3321214_640.jpg" class="card-img-top" alt="Imagem do Card">
+                                    <section class="card-body">
+                                        <h5 class="card-title">Audi RS 6 2019</h5>
+
+                                        <p class="card-text">R$ 2,250,000</p>
+                                        <div class="info-veiculos">
+                                            <p class="ano-veiculo"><i class="fas fa-calendar"></i> 2018/2019</p>
+                                            <p class="km-veiculo"><i class="fas fa-road"></i> 32,750 km</p>
+                                        </div class="info-veiculos">
+
+                                        <div class="dados-potencia-veiculo">
+                                            <p class="potencia"><i class="fas fa-bolt"></i> Potência: 510 CV</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 4.0 segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 315 km/h</p>
+                                        </div>
+                                    </section>
+                                </section>
+                            </section>
+
+                            <section class="col-md-4 mb-4">
+                                <section class="card">
+                                    <img src="img/ccamaro.jpg" class="card-img-top" alt="Imagem do Card">
+                                    <section class="card-body">
+                                        <h5 class="card-title">Camaro ZR1 2021</h5>
+
+                                        <p class="card-text">R$ 2,250,000</p>
+                                        <div class="info-veiculos">
+                                            <p class="ano-veiculo"><i class="fas fa-calendar"></i> 2020/2021</p>
+                                            <p class="km-veiculo"><i class="fas fa-road"></i> 32,750 km</p>
+                                        </div class="info-veiculos">
+
+                                        <div class="dados-potencia-veiculo">
+                                            <p class="potencia"><i class="fas fa-bolt"></i> Potência: 720 CV</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.9 segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 350 km/h</p>
+                                        </div>
+
+                                    </section>
+                                </section>
+                            </section>
+<!---------------------------CARD 6-------------------------->                            
+                            <section class="col-md-4 mb-4">
+                                <section class="card">
+                                    <img src="img/mustang.jpg" class="card-img-top" alt="Imagem do Card">
+                                    <section class="card-body">
+                                        <h5 class="card-title">Shelby GT 350</h5>
+
+                                        <p class="card-text">R$ 2,950,000</p>
+                                        <div class="info-veiculos">
+                                            <p class="ano-veiculo"><i class="fas fa-calendar"></i> 2020/2021</p>
+                                            <p class="km-veiculo"><i class="fas fa-road"></i> 24,600 km</p>
+                                        </div class="info-veiculos">
+
+                                        <div class="dados-potencia-veiculo">
+                                            <p class="potencia"><i class="fas fa-bolt"></i> Potência: 680 CV</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.4 segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 335 km/h</p>
+                                        </div>
+                                    </section>
+                                </section>
+                            </section>
+
+
+<!---------------------------CARD 7-------------------------->
+                            <section class="col-md-4 mb-4">
+                                <section class="card">
+                                    <img src="img/lamborghini-4815250_640.jpg" class="card-img-top"
+                                        alt="Imagem do Card">
+                                    <section class="card-body">
+                                        <h5 class="card-title">Lamborhini Murciélago 2021</h5>
+
+                                        <p class="card-text">R$ 1,200,000</p>
+                                        <div class="info-veiculos">
+                                            <p class="ano-veiculo"><i class="fas fa-calendar"></i> 2021/2022</p>
+                                            <p class="km-veiculo"><i class="fas fa-road"></i> 43,150 km</p>
+                                        </div class="info-veiculos">
+
+                                        <div class="dados-potencia-veiculo">
+                                            <p class="potencia"><i class="fas fa-bolt"></i> Potência: 520 CV</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 4.2 segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 325 km/h</p>
+                                        </div>
+                                    </section>
+                                </section>
+                            </section>
+<!---------------------------CARD 8-------------------------->
+                            <section class="col-md-4 mb-4">
+                                <section class="card">
+                                    <img src="img/bmw-5665352_640.jpg" class="card-img-top" alt="Imagem do Card">
+                                    <section class="card-body">
+                                        <h5 class="card-title">BMW M2 2018</h5>
+
+                                        <p class="card-text">R$ 3,500,000</p>
+                                        <div class="info-veiculos">
+                                            <p class="ano-veiculo"><i class="fas fa-calendar"></i> 2018/2019</p>
+                                            <p class="km-veiculo"><i class="fas fa-road"></i> 14,800 km</p>
+                                        </div class="info-veiculos">
+
+                                        <div class="dados-potencia-veiculo">
+                                            <p class="potencia"><i class="fas fa-bolt"></i> Potência: 610 CV</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.9 segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 340 km/h</p>
+                                        </div>
+                                    </section>
+                                </section>
+                            </section>
+
+<!---------------------------CARD 9-------------------------->
+                            <section class="col-md-4 mb-4">
+                                <section class="card">
+                                    <img src="img/porsche-911-gt3-2865400_640.jpg" class="card-img-top"
+                                        alt="Imagem do Card">
+                                    <section class="card-body">
+                                        <h5 class="card-title">Porsche 911 2022</h5>
+
+                                        <p class="card-text">R$ 2,100,000</p>
+                                        <div class="info-veiculos">
+                                            <p class="ano-veiculo"><i class="fas fa-calendar"></i> 2021/2022</p>
+                                            <p class="km-veiculo"><i class="fas fa-road"></i> 12,750 km</p>
+                                        </div class="info-veiculos">
+
+                                        <div class="dados-potencia-veiculo">
+                                            <p class="potencia"><i class="fas fa-bolt"></i> Potência: 450 CV</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 4.1 segundos</p>
+                                            <p class= "velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 310 km/h</p>
+                                        </div>
+<!---------------------------FINAL-------------------------->
+                                    </section>
+                                </section>
+                            </section><!--Final das sections cards-->
+                        </section>
+                    </section>
+                </section>
+            </section>
+    </main>
+
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

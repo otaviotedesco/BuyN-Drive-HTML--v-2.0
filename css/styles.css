@@ -1,0 +1,241 @@
+header,
+.navbar {
+  background-color: rgb(35, 32, 32);
+}
+
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#logo {
+  height: 15%;
+  width: 15%;
+  margin-left: 20px;
+}
+
+.bn-logo {
+  padding: 0;
+  color: #FFF;
+}
+
+
+
+#navbar-links a {
+  color: #FFF;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 1rem .8rem;
+}
+
+.nav-item.active {
+  border-bottom: 3px solid #FFF;
+}
+
+.navbar-nav{
+  display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ width: 110%;
+ font-family: 'Bebas Neue', sans-serif;
+ font-size: 1.5rem;
+ letter-spacing: 4px;
+
+}
+/*---------------------BODY---------------*/
+body {
+  background-color: #232020;
+}
+
+
+/*-----------------------SIDEBAR--------------*/
+.sidebar {
+  background-color: #494242;
+  color: #EDF2F4;
+  padding: 20px;
+  margin-top: 50px;
+  max-width: 250px;
+  
+}
+
+/*----------------------FORM---------------*/
+.form-group label {
+  color: #2B2D42;
+}
+
+/*-----------------------CARD-------------*/
+.card {
+  background-color: #EDF2F4;
+  color: #2B2D42;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-color: #494242;
+}
+
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.card-title {
+  color: #1085b3;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-text {
+  color: #2B2D42;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 1.7rem
+
+}
+
+.btn-primary {
+  background-color: #EF233C;
+  margin-left: 30%;
+  border: none;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.btn-primary:hover{
+  size: 110%;
+  transform: scale(1.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #EF233C;
+
+}
+
+
+
+h5 {
+  color: rgb(236, 207, 207);
+  font-family: 'Bebas Neue', sans-serif;;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  margin-left: 20%;
+
+}
+
+
+/*--------------------JUMBOTRON--------------*/
+
+.jumbotron {
+  
+  background-size: 60%;
+  background-position: center;
+  margin-top: 5%;
+  color: #bbbbc6;
+  background-repeat: no-repeat;
+  height: 350px;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  background-color: #FFF;
+}
+
+
+
+/*--------------------CONTAINER-------------*/
+.container-lg-90 {
+  width: 90%;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  margin-top: 30px;
+}
+/*----------------LABELS FORM------------*/
+label[for="tipoServico"] {
+
+  color: rgb(236, 207, 207);
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+label[for="tipoVeiculo"] {
+
+  color: rgb(236, 207, 207);
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+label[for="anoMin"] {
+
+  color: rgb(236, 207, 207);
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+label[for="anoMax"] {
+
+  color: rgb(236, 207, 207);
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+label[for="precoMin"] {
+
+  color: rgb(236, 207, 207);
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+label[for="precoMax"] {
+
+  color: rgb(236, 207, 207);
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.info-veiculos{
+  
+  font-weight: bold;
+  width: 105%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  letter-spacing: 0px;
+}
+
+.dados-potencia-veiculo p {
+  visibility: hidden;
+  opacity: 0; 
+  transition: visibility 0s, opacity 0.2s;
+}
+
+
+.dados-potencia-veiculo:hover p {
+  visibility: visible;
+  opacity: 1;
+  color:#232020;
+}
+

@@ -17,46 +17,130 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 
     <link rel="stylesheet" href="css/styles.css">
-    
+
 </head>
 
 
 <!---------------------BODY-NAVBAR-------------------------->
+
 <body>
-<header><!--Arrumar o posicionamento da sidebar para o centro-->
+    <header><!--Arrumar o posicionamento da sidebar para o centro-->
 
-<section class="container" id="nav-container">
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-        <a class="bn-logo" href="index 1.html">
-            img id="logo" src="logo/3-fotor-bg-remover-20231107182338.png" alt="Rental Car"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
-            aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span></button>
-        
-        <section class="collapse navbar-collapse justify-content-end" id="navbar-links">
-            <section class="navbar-nav">
-                <a class="nav-item nav-link" id="menu-inicio" href="#">Comprar</span></a>
-                <a class="nav-item nav-link" id="menu-anuncie" href="#">Anuncie seu veículo</a>
-                <a class="nav-item nav-link" id="menu-serviços" href="#">Serviços</a>
-                <a class="nav-item nav-link" id="menu-contatos" href="#">Contato</a>
-            </section>
-        </section>
-    </nav>
+        <section class="container" id="nav-container">
+
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+
+<section class="logo-container">
+                    <a class="bn-logo" href="index 1.html">
+                <img id="logo" src="logo/logo1.png"></a>
 </section>
-<!---------------------------JUMBOTRON------------------------->
-<section class="jumbotron" style="background-image: url(Captura\ de\ tela\ 2023-11-08\ 113959.png);"></section>
 
-</header>
-<!---------------------------FINAL HEADER-------------------------->
 
-<main>
-<!---------------------------INÍCIO SIDEBAR-MAIN------------------------->
-    <section class="container-lg-90">
-        <section class="row">
-            <section class="col-lg-3 d-none d-lg-block">
-<!---------------------------TIPO SERVIÇO------------------------>
-                <section class="sidebar">
-                    <h5>Filtrar Busca</h5>
+                <section class="navbar-nav">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Modelos
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">SUV'S</a>
+                            <a class="dropdown-item" href="#">Sedans</a>
+                            <a class="dropdown-item" href="#">Carros Esportivos</a>
+                            <a class="dropdown-item" href="#">Passeio</a>
+                            <a class="dropdown-item" href="#">Utilitário</a>
+                            <a class="dropdown-item" href="#">Carga</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Categorias
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Econômico</a>
+                            <a class="dropdown-item" href="#">Intermediário</a>
+                            <a class="dropdown-item" href="#">Premium</a>
+                            <a class="dropdown-item" href="#">Van/Minivan</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Aluguel
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Diário</a>
+                            <a class="dropdown-item" href="#">Semanal</a>
+                            <a class="dropdown-item" href="#">Mensal</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Serviços Adicionais
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">GPS</a>
+                            <a class="dropdown-item" href="#">Assento para Bebê</a>
+                            <a class="dropdown-item" href="#">Seguro Adicional</a>
+                            <a class="dropdown-item" href="#">Motorista Adicional</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Locais
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Aeroporto</a>
+                            <a class="dropdown-item" href="#">Centro da Cidade</a>
+                            <a class="dropdown-item" href="#">Estações de Trem/Ônibus</a>
+                        </div>
+                    </div>
+
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Informações
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Políticas de Cancelamento</a>
+                            <a class="dropdown-item" href="#">Requisitos de Idade</a>
+                            <a class="dropdown-item" href="#">Condições de Aluguel</a>
+                        </div>
+                    </div>
+                </section>
+
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="area-login">
+                        ENTRAR
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Particular</a>
+                        <a class="dropdown-item" href="#">Lojista</a>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!---------------------------JUMBOTRON------------------------->
+        <section class="jumbotron" style="background-image: url(img/Banner-jumbo.png);"></section>
+
+    </header>
+    <!---------------------------FINAL HEADER-------------------------->
+
+    <main>
+        <!---------------------------INÍCIO SIDEBAR-MAIN------------------------->
+        <section class="container-lg-90">
+            <section class="row">
+                <section class="col-lg-3 d-none d-lg-block">
+                    <!---------------------------TIPO SERVIÇO------------------------>
+                    <section class="sidebar">
+                        <h5>Filtrar Busca</h5>
                         <form><!--FORM-->
                             <section class="form-group mb-0">
                                 <label for="tipoServico">Tipo de Serviço</label>
@@ -65,45 +149,45 @@
                                     <option>Compra</option>
                                 </select>
                             </section>
- <!---------------------------TIPO VEÍCULO------------------------>
-                <section class="form-group mb-0">
-                    <label for="tipoVeiculo">Tipo do Veículo</label>
-                        <select class="form-control" id="marcaCarro">
-                            <option>Passeio</option>
-                            <option>SUV</option>
-                            <option>Esportivo</option>
-                            <option>Motocicleta</option>
-                            <option>Utilitário</option>
-                            <option>Carga</option>
-                        </select>
-                </section>
-<!---------------------------ANO MÍNIMO------------------------->                
-                <section class="form-group mb-0">
-                    <label for="anoMin">Ano Mínimo</label>
-                    <input type="number" class="form-control" id="anoMin"  min="1950" max="2023">
-                </section>
-<!---------------------------ANO MÁXIMO------------------------->
-                <section class="form-group mb-0">
-                    <label for="anoMax">Ano Máximo</label>
-                    <input type="number" class="form-control" id="anoMax"  min="1950" max="2023">
-                </section>
-<!---------------------------PREÇO MÍNIMO------------------------->
-                <section class="form-group mb-0">
-                    <label for="precoMin">Preço Mínimo</label>
-                        <input type="number" class="form-control" id="precoMin">
-                </section>
-<!---------------------------PREÇO MÁXIMO------------------------->                         
-                <section class="form-group mb-3">
-                    <label for="precoMax">Preço Máximo</label>
-                    <input type="number" class="form-control" id="precoMax">
-                </section>
-                    <button type="submit" class="btn btn-primary">Filtrar</button>
-                </form><!--FORM-->
-                    
-                </section><!--class=sidebar-->
-            </section><!--col-lg-3 d-none d-lg-block"-->
+                            <!---------------------------TIPO VEÍCULO------------------------>
+                            <section class="form-group mb-0">
+                                <label for="tipoVeiculo">Modelos</label>
+                                <select class="form-control" id="marcaCarro">
+                                    <option>Passeio</option>
+                                    <option>SUV</option>
+                                    <option>Esportivo</option>
+                                    <option>Motocicleta</option>
+                                    <option>Utilitário</option>
+                                    <option>Carga</option>
+                                </select>
+                            </section>
+                            <!---------------------------ANO MÍNIMO------------------------->
+                            <section class="form-group mb-0">
+                                <label for="anoMin">Ano Mínimo</label>
+                                <input type="number" class="form-control" id="anoMin" min="1950" max="2023">
+                            </section>
+                            <!---------------------------ANO MÁXIMO------------------------->
+                            <section class="form-group mb-0">
+                                <label for="anoMax">Ano Máximo</label>
+                                <input type="number" class="form-control" id="anoMax" min="1950" max="2023">
+                            </section>
+                            <!---------------------------PREÇO MÍNIMO------------------------->
+                            <section class="form-group mb-0">
+                                <label for="precoMin">Preço Mínimo</label>
+                                <input type="number" class="form-control" id="precoMin" min="0" max="99.999.999">
+                            </section>
+                            <!---------------------------PREÇO MÁXIMO------------------------->
+                            <section class="form-group mb-3">
+                                <label for="precoMax">Preço Máximo</label>
+                                <input type="number" class="form-control" id="precoMax" min="0" max="99.999.999">
+                            </section>
+                            <button type="submit" class="btn btn-primary">Filtrar</button>
+                        </form><!--FORM-->
 
-<!---------------------------FINAL SIDEBAR-------------------------->
+                    </section><!--class=sidebar-->
+                </section><!--col-lg-3 d-none d-lg-block"-->
+
+                <!---------------------------FINAL SIDEBAR-------------------------->
 
                 <section class="col-lg-9">
                     <section class="container mt-5">
@@ -117,21 +201,25 @@
 
                                         <p class="card-text">R$ 3,700,000</p>
                                         <div class="info-veiculos">
-                                            <p class="ano-veiculo"><i class="fas fa-calendar"></i> 2019/2020</p>
+                                            <p class="ano-veiculo"><i class="fas fa-calendar"></i> 2022/2023</p>
                                             <p class="km-veiculo"><i class="fas fa-road"></i> 0 km</p>
                                         </div>
-                                        
+
+
                                         <div class="dados-potencia-veiculo">
                                             <p class="potencia"><i class="fas fa-bolt"></i> Potência: 550 CV</p>
-                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.5 segundos</p>
-                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 300 km/h</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.5
+                                                segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima:
+                                                300 km/h</p>
                                         </div>
-                                        
+
+
                                     </section>
                                 </section>
                             </section>
 
-<!---------------------------CARD 2-------------------------->
+                            <!---------------------------CARD 2-------------------------->
                             <section class="col-md-4 mb-4">
                                 <section class="card">
                                     <img src="img/amg.jpg" class="card-img-top" alt="Imagem do Card">
@@ -147,14 +235,16 @@
 
                                         <div class="dados-potencia-veiculo">
                                             <p class="potencia"><i class="fas fa-bolt"></i> Potência: 625 CV</p>
-                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.2 segundos</p>
-                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 320 km/h</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.2
+                                                segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima:
+                                                320 km/h</p>
                                         </div>
                                     </section>
                                 </section>
                             </section>
 
-<!---------------------------CARD 3-------------------------->
+                            <!---------------------------CARD 3-------------------------->
                             <section class="col-md-4 mb-4">
                                 <section class="card">
                                     <img src="img/audia.jpg" class="card-img-top"
@@ -169,13 +259,15 @@
                                         </div class="info-veiculos">
                                         <div class="dados-potencia-veiculo">
                                             <p class="potencia"><i class="fas fa-bolt"></i> Potência: 700 CV</p>
-                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.7 segundos</p>
-                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 345 km/h</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.7
+                                                segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima:
+                                                345 km/h</p>
                                         </div>
                                     </section>
                                 </section>
                             </section>
- <!---------------------------CARD 4-------------------------->
+                            <!---------------------------CARD 4-------------------------->
 
                             <section class="col-md-4 mb-4">
                                 <section class="card">
@@ -191,8 +283,10 @@
 
                                         <div class="dados-potencia-veiculo">
                                             <p class="potencia"><i class="fas fa-bolt"></i> Potência: 510 CV</p>
-                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 4.0 segundos</p>
-                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 315 km/h</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 4.0
+                                                segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima:
+                                                315 km/h</p>
                                         </div>
                                     </section>
                                 </section>
@@ -212,14 +306,16 @@
 
                                         <div class="dados-potencia-veiculo">
                                             <p class="potencia"><i class="fas fa-bolt"></i> Potência: 720 CV</p>
-                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.9 segundos</p>
-                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 350 km/h</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.9
+                                                segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima:
+                                                350 km/h</p>
                                         </div>
 
                                     </section>
                                 </section>
                             </section>
-<!---------------------------CARD 6-------------------------->                            
+                            <!---------------------------CARD 6-------------------------->
                             <section class="col-md-4 mb-4">
                                 <section class="card">
                                     <img src="img/mustang.jpg" class="card-img-top" alt="Imagem do Card">
@@ -234,15 +330,17 @@
 
                                         <div class="dados-potencia-veiculo">
                                             <p class="potencia"><i class="fas fa-bolt"></i> Potência: 680 CV</p>
-                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.4 segundos</p>
-                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 335 km/h</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.4
+                                                segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima:
+                                                335 km/h</p>
                                         </div>
                                     </section>
                                 </section>
                             </section>
 
 
-<!---------------------------CARD 7-------------------------->
+                            <!---------------------------CARD 7-------------------------->
                             <section class="col-md-4 mb-4">
                                 <section class="card">
                                     <img src="img/lamborghini-4815250_640.jpg" class="card-img-top"
@@ -258,13 +356,15 @@
 
                                         <div class="dados-potencia-veiculo">
                                             <p class="potencia"><i class="fas fa-bolt"></i> Potência: 520 CV</p>
-                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 4.2 segundos</p>
-                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 325 km/h</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 4.2
+                                                segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima:
+                                                325 km/h</p>
                                         </div>
                                     </section>
                                 </section>
                             </section>
-<!---------------------------CARD 8-------------------------->
+                            <!---------------------------CARD 8-------------------------->
                             <section class="col-md-4 mb-4">
                                 <section class="card">
                                     <img src="img/bmw-5665352_640.jpg" class="card-img-top" alt="Imagem do Card">
@@ -279,14 +379,16 @@
 
                                         <div class="dados-potencia-veiculo">
                                             <p class="potencia"><i class="fas fa-bolt"></i> Potência: 610 CV</p>
-                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.9 segundos</p>
-                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 340 km/h</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 3.9
+                                                segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima:
+                                                340 km/h</p>
                                         </div>
                                     </section>
                                 </section>
                             </section>
 
-<!---------------------------CARD 9-------------------------->
+                            <!---------------------------CARD 9-------------------------->
                             <section class="col-md-4 mb-4">
                                 <section class="card">
                                     <img src="img/porsche-911-gt3-2865400_640.jpg" class="card-img-top"
@@ -302,10 +404,12 @@
 
                                         <div class="dados-potencia-veiculo">
                                             <p class="potencia"><i class="fas fa-bolt"></i> Potência: 450 CV</p>
-                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 4.1 segundos</p>
-                                            <p class= "velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima: 310 km/h</p>
+                                            <p class="aceleracao"><i class="fas fa-tachometer-alt"></i> 0-100 km/h: 4.1
+                                                segundos</p>
+                                            <p class="velocidade-maxima"><i class="fas fa-car"></i> Velocidade Máxima:
+                                                310 km/h</p>
                                         </div>
-<!---------------------------FINAL-------------------------->
+                                        <!---------------------------FINAL-------------------------->
                                     </section>
                                 </section>
                             </section><!--Final das sections cards-->
@@ -315,7 +419,81 @@
             </section>
     </main>
 
-    
+    <!-------------------------- Rodapé ------------------------------------------>
+
+    <footer>
+        <section id="area-contatos">
+            <section class="container">
+                <section class="row">
+                    <section class="col-md-12">
+                        <h3 class="titulo">Entre em contato conosco</h3>
+                    </section>
+
+                    <section class="col-md-4 caixa-contatos">
+                        <i class="fas fa-phone"></i>
+                        <p><span class="contact-tile">Ligue para:</span> (54)99999-9999</p>
+                        <p><span class="contact-tile">Horários:</span> 8:00 - 19:00</p>
+                    </section>
+
+                    <section class="col-md-4 caixa-contatos">
+                        <i class="fas fa-envelope"></i>
+                        <p><span class="contact-tile">Envie um email:</span> contato@buyndrive.com</p>
+                    </section>
+
+                    <section class="col-md-4 caixa-contatos">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p><span class="contact-tile">Endereço:</span> Av. Main Street 1214</p>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+
+
+        <section class="container-footer">
+
+            <section class="col-md-4" id="caixa-msg">
+                <p>Ou nos deixe uma mensagem:</p>
+                <form action="" id="formulario-contato">
+                    <input type="text" class="form-control" placeholder="Nome" name="name">
+                    <br>
+                    <input type="text" class="form-control" placeholder="E-mail" name="email">
+                    <br><!--Ver o que aaconteceu aqui-->
+                    <input type="text" class="form-control" placeholder="Assunto" name="subject">
+                </form>
+            </section>
+
+            <section class="col-md-4" id="forms-contato">
+
+                <form action="">
+                    <textarea class="form-control" rows="3" placeholder="Digite sua mensagem!"
+                        name="message"></textarea>
+
+                    <section class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1" id="defaultCheck2">
+                           Quero receber notícias e e-mails
+                        </label>
+                    </section>
+                    <input type="submit" class="main-btn" id="button-send">
+                </form>
+            </section>
+        </section>
+
+
+
+        <section id="final">
+            <section class="container">
+                <section class="row">
+                    <section class="col-md-12">
+                        <p>Otávio Rizzatti Tedesco - 2023 - Feito para fins estudantis</p>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </footer>
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -324,3 +502,12 @@
 </body>
 
 </html>
+
+<!--<section class="collapse navbar-collapse justify-content-end" id="navbar-links">
+            <section class="navbar-nav">
+                <a class="nav-item nav-link" id="menu-inicio" href="#">Comprar</span></a>
+                <a class="nav-item nav-link" id="menu-anuncie" href="#">Anuncie seu veículo</a>
+                <a class="nav-item nav-link" id="menu-serviços" href="#">Serviços</a>
+                <a class="nav-item nav-link" id="menu-contatos" href="#">Contato</a>
+            </section>
+        </section>-->

@@ -358,6 +358,7 @@ footer{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+ 
 }
 
 #forms-contato input[type="checkbox"]{
@@ -377,9 +378,16 @@ footer{
   height: 40px;
 }
 
+.nome-form{
+  padding: 10px;
+}
+.email-form{
+  padding: 10px;
+}
 
-
-
+.assunto-form{
+  padding: 10px;
+}
 /*----------------------------LABELS-----------------------------------*/
 /*
 label[for="tipoServico"] {
